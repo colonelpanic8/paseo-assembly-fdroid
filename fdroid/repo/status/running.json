@@ -1,0 +1,38 @@
+{
+  "/etc/issue.net": "Ubuntu 24.04.4 LTS",
+  "antiFeatures": {},
+  "apksigner": "/nix/store/zd1r5wanal1jwz3w2vp3lykvf5fwl8l4-apksigner-35.0.6/bin/apksigner",
+  "archivePolicy0": [],
+  "commandLine": [
+    "/nix/store/4fibngxjfydpjxgy7718wfbcg3kwx62h-fdroidserver-2.4.2/bin/fdroid update",
+    "--pretty"
+  ],
+  "disabled": [],
+  "endTimestamp": 1785257335075,
+  "failedBuilds": {},
+  "jarsigner": "/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.11-10/x64/bin/jarsigner",
+  "keytool": "/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.11-10/x64/bin/keytool",
+  "needsUpdate": [
+    "sh.paseo.assembly"
+  ],
+  "noPackages": [
+    "sh.paseo.assembly"
+  ],
+  "noUpdateCheck": [
+    "sh.paseo.assembly"
+  ],
+  "stages": {
+    "archive_old_apks archive": 1785257328746,
+    "delete_disabled_builds": 1785257327677,
+    "index.make archive": 1785257328747,
+    "index.make repo": 1785257331934,
+    "prepare_apps archive": 1785257328746,
+    "prepare_apps repo": 1785257331933,
+    "process_apks": 1785257327677,
+    "read_added_date_from_all_apks": 1785257328746,
+    "remove_apks": 1785257328745,
+    "scan_repo_files": 1785257328744
+  },
+  "startTimestamp": 1785257327000,
+  "subcommand": "update"
+}

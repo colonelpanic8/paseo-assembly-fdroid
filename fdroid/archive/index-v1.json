@@ -1,0 +1,16 @@
+{
+  "repo": {
+    "timestamp": 1785257328000,
+    "version": 20002,
+    "name": "Paseo Assembly Archive",
+    "icon": "icon.png",
+    "description": "Older source-built Paseo Assembly snapshots.",
+    "address": "https://colonelpanic8.github.io/paseo-assembly-fdroid/fdroid/archive"
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [],
+  "packages": {}
+}
