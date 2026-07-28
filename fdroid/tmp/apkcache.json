@@ -552,5 +552,74 @@
     "size": 77609984,
     "apkName": "sh.paseo.assembly_1000000182.apk",
     "added": 1785273638.940199
+  },
+  "sh.paseo.assembly_1000000192.apk": {
+    "hash": "a4d3cbaa49bdf6040104210aeaa142d319dee8de50317de7a08e309b72702f95",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.RECORD_AUDIO",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "sh.paseo.assembly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "sh.paseo.assembly",
+    "versionCode": 1000000192,
+    "name": "Paseo Assembly",
+    "versionName": "0.2.3-assembly.19+b7ecd57f244d",
+    "minSdkVersion": 29,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "arm64-v8a"
+    ],
+    "sig": "f1a8067609dc1fdee06648d3c6962b3f",
+    "signer": "8d229a78b0d7c22086e743c9edc3678b5ed7e9c5388aeb18013729568139b8ee",
+    "size": 77609984,
+    "apkName": "sh.paseo.assembly_1000000192.apk",
+    "added": 1785275062.312897
   }
 }
