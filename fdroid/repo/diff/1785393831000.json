@@ -1,14 +1,75 @@
 {
   "repo": {
-    "timestamp": 1785395937000
+    "timestamp": 1785398132000
   },
   "packages": {
     "sh.paseo.assembly": {
       "metadata": {
-        "lastUpdated": 1785395934000
+        "lastUpdated": 1785398129000
       },
       "versions": {
+        "defaf8e1024337c34b29a2de77cc64946aa8dce99b2738f9bb33b897ea6affa0": null,
         "5fe3c3355be9b648598402c7b28f64103d895ddba0b928874821f0e95de619cb": null,
+        "c550db986b8ca91d1beb35f82ccec96be7a287a72f280827697655915dc3eb5f": {
+          "added": 1785398129000,
+          "file": {
+            "name": "/sh.paseo.assembly_1000000402.apk",
+            "sha256": "c550db986b8ca91d1beb35f82ccec96be7a287a72f280827697655915dc3eb5f",
+            "size": 79476619
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.2.3-assembly.40+701c3e99ea9e",
+            "versionCode": 1000000402,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "8d229a78b0d7c22086e743c9edc3678b5ed7e9c5388aeb18013729568139b8ee"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "sh.paseo.assembly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ]
+          }
+        },
         "d65d68b5da4690944e4810ce1df5c616f3250598c0e5e0b8328909cdc27a8bb4": {
           "added": 1785395934000,
           "file": {
