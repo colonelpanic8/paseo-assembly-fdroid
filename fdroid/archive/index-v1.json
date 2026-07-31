@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785461312000,
+    "timestamp": 1785464806000,
     "version": 20002,
     "name": "Paseo Assembly Archive",
     "icon": "icon.png",
@@ -19,7 +19,7 @@
         "Internet"
       ],
       "changelog": "https://github.com/getpaseo/paseo/blob/HEAD/CHANGELOG.md",
-      "suggestedVersionCode": "1000000392",
+      "suggestedVersionCode": "1000000402",
       "description": "Paseo Assembly follows a pinned, reproducible fork-fold stack based on\nupstream Paseo plus selected topic branches.\n\nThis channel is intended for development snapshots. It uses a distinct\nAndroid package ID, so it can be installed alongside the production Paseo\napp. F-Droid builds intentionally omit QR scanning, push notifications, and\nExpo over-the-air updates; direct and pasted-link pairing remain available.",
       "issueTracker": "https://github.com/getpaseo/paseo/issues",
       "license": "AGPL-3.0-or-later",
@@ -29,11 +29,74 @@
       "webSite": "https://paseo.sh",
       "added": 1785257328000,
       "packageName": "sh.paseo.assembly",
-      "lastUpdated": 1785461312000
+      "lastUpdated": 1785464806000
     }
   ],
   "packages": {
     "sh.paseo.assembly": [
+      {
+        "added": 1785398129000,
+        "apkName": "sh.paseo.assembly_1000000402.apk",
+        "hash": "c550db986b8ca91d1beb35f82ccec96be7a287a72f280827697655915dc3eb5f",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "sh.paseo.assembly",
+        "sig": "f1a8067609dc1fdee06648d3c6962b3f",
+        "signer": "8d229a78b0d7c22086e743c9edc3678b5ed7e9c5388aeb18013729568139b8ee",
+        "size": 79476619,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "sh.paseo.assembly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ]
+        ],
+        "versionCode": 1000000402,
+        "versionName": "0.2.3-assembly.40+701c3e99ea9e"
+      },
       {
         "added": 1785395934000,
         "apkName": "sh.paseo.assembly_1000000392.apk",
