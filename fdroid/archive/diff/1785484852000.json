@@ -1,0 +1,74 @@
+{
+  "repo": {
+    "timestamp": 1785514207000
+  },
+  "packages": {
+    "sh.paseo.assembly": {
+      "metadata": {
+        "lastUpdated": 1785514207000
+      },
+      "versions": {
+        "61c4b5b6f9cc2e2c031151e0f93ac73667f8fc0ef7bd6bd20a9c0c54b1fc0bda": {
+          "added": 1785444568000,
+          "file": {
+            "name": "/sh.paseo.assembly_1000000462.apk",
+            "sha256": "61c4b5b6f9cc2e2c031151e0f93ac73667f8fc0ef7bd6bd20a9c0c54b1fc0bda",
+            "size": 79558539
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.2.5-assembly.46+1a9a4ae585b8",
+            "versionCode": 1000000462,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "8d229a78b0d7c22086e743c9edc3678b5ed7e9c5388aeb18013729568139b8ee"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "sh.paseo.assembly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
