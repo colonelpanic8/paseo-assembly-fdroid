@@ -1,15 +1,103 @@
 {
   "repo": {
-    "timestamp": 1785741603000
+    "description": {
+      "en-US": "Source-built Android snapshots of Ivan Malison's pinned Paseo fork-assembler assembly."
+    },
+    "timestamp": 1785743794000
   },
   "packages": {
     "sh.paseo.assembly": {
       "metadata": {
-        "lastUpdated": 1785741600000
+        "lastUpdated": 1785743791000,
+        "description": {
+          "en-US": "Paseo Assembly follows a pinned, reproducible fork-assembler stack based on\nupstream Paseo plus selected topic branches.\n\nThis channel is intended for development snapshots. It uses a distinct\nAndroid package ID, so it can be installed alongside the production Paseo\napp. F-Droid builds intentionally omit QR scanning, push notifications, and\nExpo over-the-air updates; direct and pasted-link pairing remain available."
+        }
       },
       "versions": {
+        "66aeba7aa44cb4f0e2d10898e8106d6634f16fe2f19ddbb47c58b5172b6dab99": null,
         "8e5e421bd9c0b33a984857f3a907905792f0a9c78db717f5966be2315d3492c2": null,
         "83a7b06e3688db604d160a0e495af324276e27c9b1958ba5fb6d1fe2056a211a": null,
+        "9a13191b9556f33cd8cd1eefa2f90be8135374ededf30afb18bfa455e915947e": {
+          "added": 1785743791000,
+          "file": {
+            "name": "/sh.paseo.assembly_1000000872.apk",
+            "sha256": "9a13191b9556f33cd8cd1eefa2f90be8135374ededf30afb18bfa455e915947e",
+            "size": 84824996
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.2.5-assembly.87+8621ae4f68d4",
+            "versionCode": 1000000872,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "8d229a78b0d7c22086e743c9edc3678b5ed7e9c5388aeb18013729568139b8ee"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "sh.paseo.assembly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ]
+          }
+        },
         "db1b0e42c630515c5420d4d485a719174377129b86c02706b97534db125dbed4": {
           "added": 1785741600000,
           "file": {
