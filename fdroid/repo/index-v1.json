@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785750893000,
+    "timestamp": 1785776705000,
     "version": 20002,
     "name": "Paseo Assembly",
     "icon": "icon.png",
@@ -19,7 +19,7 @@
         "Internet"
       ],
       "changelog": "https://github.com/getpaseo/paseo/blob/HEAD/CHANGELOG.md",
-      "suggestedVersionCode": "1000000912",
+      "suggestedVersionCode": "1000000922",
       "description": "Paseo Assembly follows a pinned, reproducible fork-assembler stack based on\nupstream Paseo plus selected topic branches.\n\nThis channel is intended for development snapshots. It uses a distinct\nAndroid package ID, so it can be installed alongside the production Paseo\napp. F-Droid builds intentionally omit QR scanning, push notifications, and\nExpo over-the-air updates; direct and pasted-link pairing remain available.",
       "issueTracker": "https://github.com/getpaseo/paseo/issues",
       "license": "AGPL-3.0-or-later",
@@ -29,11 +29,102 @@
       "webSite": "https://paseo.sh",
       "added": 1785257328000,
       "packageName": "sh.paseo.assembly",
-      "lastUpdated": 1785750890000
+      "lastUpdated": 1785776701000
     }
   ],
   "packages": {
     "sh.paseo.assembly": [
+      {
+        "added": 1785776701000,
+        "apkName": "sh.paseo.assembly_1000000922.apk",
+        "hash": "3b4a49907807aa091ccf24a1cb65eb16b7dc748a913be73811f7ed324aabd510",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "sh.paseo.assembly",
+        "sig": "f1a8067609dc1fdee06648d3c6962b3f",
+        "signer": "8d229a78b0d7c22086e743c9edc3678b5ed7e9c5388aeb18013729568139b8ee",
+        "size": 84841380,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "sh.paseo.assembly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ]
+        ],
+        "versionCode": 1000000922,
+        "versionName": "0.2.5-assembly.92+204807aecdca"
+      },
       {
         "added": 1785750890000,
         "apkName": "sh.paseo.assembly_1000000912.apk",
@@ -852,97 +943,6 @@
         ],
         "versionCode": 1000000802,
         "versionName": "0.2.5-assembly.80+2f45c5e1749c"
-      },
-      {
-        "added": 1785687183000,
-        "apkName": "sh.paseo.assembly_1000000792.apk",
-        "hash": "0df21eadba6fd5cf284e81446747305feb9d75c4c664f2d1036647be9f26f255",
-        "hashType": "sha256",
-        "minSdkVersion": 29,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "sh.paseo.assembly",
-        "sig": "f1a8067609dc1fdee06648d3c6962b3f",
-        "signer": "8d229a78b0d7c22086e743c9edc3678b5ed7e9c5388aeb18013729568139b8ee",
-        "size": 84820900,
-        "targetSdkVersion": 36,
-        "uses-permission": [
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.BLUETOOTH",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.CHANGE_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_MICROPHONE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.MODIFY_AUDIO_SETTINGS",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.SYSTEM_ALERT_WINDOW",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "sh.paseo.assembly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ],
-          [
-            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-            null
-          ]
-        ],
-        "versionCode": 1000000792,
-        "versionName": "0.2.5-assembly.79+cf1c48ed1d50"
       }
     ]
   }
