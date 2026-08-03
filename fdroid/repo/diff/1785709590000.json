@@ -3,21 +3,103 @@
     "description": {
       "en-US": "Source-built Android snapshots of Ivan Malison's pinned Paseo fork-assembler assembly."
     },
-    "timestamp": 1785743794000
+    "timestamp": 1785748253000
   },
   "packages": {
     "sh.paseo.assembly": {
       "metadata": {
-        "lastUpdated": 1785743791000,
+        "lastUpdated": 1785748249000,
         "description": {
           "en-US": "Paseo Assembly follows a pinned, reproducible fork-assembler stack based on\nupstream Paseo plus selected topic branches.\n\nThis channel is intended for development snapshots. It uses a distinct\nAndroid package ID, so it can be installed alongside the production Paseo\napp. F-Droid builds intentionally omit QR scanning, push notifications, and\nExpo over-the-air updates; direct and pasted-link pairing remain available."
         }
       },
       "versions": {
+        "b2907f0f5b32f936aebb8b5e2ba00d4fe4053241c05d040006d0cd43f515152c": null,
         "66aeba7aa44cb4f0e2d10898e8106d6634f16fe2f19ddbb47c58b5172b6dab99": null,
         "8e5e421bd9c0b33a984857f3a907905792f0a9c78db717f5966be2315d3492c2": null,
         "83a7b06e3688db604d160a0e495af324276e27c9b1958ba5fb6d1fe2056a211a": null,
         "e7501251eadc93dc01ac8c803d08788d93ef2d399dd3d9ed443136d989335e7f": null,
+        "7e21ae96d9c94f98c9c16399665f627ab93199bdf0cf02f1f89d3c369181df2b": {
+          "added": 1785748249000,
+          "file": {
+            "name": "/sh.paseo.assembly_1000000902.apk",
+            "sha256": "7e21ae96d9c94f98c9c16399665f627ab93199bdf0cf02f1f89d3c369181df2b",
+            "size": 84829092
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.2.5-assembly.90+de6a963dab8e",
+            "versionCode": 1000000902,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "8d229a78b0d7c22086e743c9edc3678b5ed7e9c5388aeb18013729568139b8ee"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "sh.paseo.assembly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ]
+          }
+        },
         "9a13191b9556f33cd8cd1eefa2f90be8135374ededf30afb18bfa455e915947e": {
           "added": 1785743791000,
           "file": {
