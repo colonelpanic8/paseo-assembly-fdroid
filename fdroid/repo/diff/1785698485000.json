@@ -3,17 +3,18 @@
     "description": {
       "en-US": "Source-built Android snapshots of Ivan Malison's pinned Paseo fork-assembler assembly."
     },
-    "timestamp": 1785748253000
+    "timestamp": 1785750893000
   },
   "packages": {
     "sh.paseo.assembly": {
       "metadata": {
-        "lastUpdated": 1785748249000,
+        "lastUpdated": 1785750890000,
         "description": {
           "en-US": "Paseo Assembly follows a pinned, reproducible fork-assembler stack based on\nupstream Paseo plus selected topic branches.\n\nThis channel is intended for development snapshots. It uses a distinct\nAndroid package ID, so it can be installed alongside the production Paseo\napp. F-Droid builds intentionally omit QR scanning, push notifications, and\nExpo over-the-air updates; direct and pasted-link pairing remain available."
         }
       },
       "versions": {
+        "2b85fdf3a21a570747ea8f856a81045a48d453483b6ad886237df7df2f07aa5f": null,
         "b2907f0f5b32f936aebb8b5e2ba00d4fe4053241c05d040006d0cd43f515152c": null,
         "66aeba7aa44cb4f0e2d10898e8106d6634f16fe2f19ddbb47c58b5172b6dab99": null,
         "8e5e421bd9c0b33a984857f3a907905792f0a9c78db717f5966be2315d3492c2": null,
@@ -21,6 +22,87 @@
         "e7501251eadc93dc01ac8c803d08788d93ef2d399dd3d9ed443136d989335e7f": null,
         "e22a799cbdef63eeb16f23f0b5f8ff0ea0afb29ad2d619ef19d6c4415bfcfb55": null,
         "2c463290606c072ede469e3d08fb117105067da202a8ba5e71deebe6c2e43715": null,
+        "0b03511ad9ad663119e94a47db98943e44b32442d6568090c655f81f757bae1a": {
+          "added": 1785750890000,
+          "file": {
+            "name": "/sh.paseo.assembly_1000000912.apk",
+            "sha256": "0b03511ad9ad663119e94a47db98943e44b32442d6568090c655f81f757bae1a",
+            "size": 84829092
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.2.5-assembly.91+0c68c2013952",
+            "versionCode": 1000000912,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "8d229a78b0d7c22086e743c9edc3678b5ed7e9c5388aeb18013729568139b8ee"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "sh.paseo.assembly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ]
+          }
+        },
         "7e21ae96d9c94f98c9c16399665f627ab93199bdf0cf02f1f89d3c369181df2b": {
           "added": 1785748249000,
           "file": {
