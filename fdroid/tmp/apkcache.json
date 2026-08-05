@@ -6851,5 +6851,102 @@
     "size": 86111589,
     "apkName": "sh.paseo.assembly_1000001092.apk",
     "added": 1785893158.75177
+  },
+  "sh.paseo.assembly_1000001102.apk": {
+    "hash": "365a64635c4a299fccb236f94288c5787ba0a7c494d9040e4f4bd11902a8efdf",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.CHANGE_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.RECORD_AUDIO",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "sh.paseo.assembly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "sh.paseo.assembly",
+    "versionCode": 1000001102,
+    "name": "Paseo Assembly",
+    "versionName": "0.3.0-assembly.110+0af8658bb604",
+    "minSdkVersion": 29,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "arm64-v8a"
+    ],
+    "sig": "f1a8067609dc1fdee06648d3c6962b3f",
+    "signer": "8d229a78b0d7c22086e743c9edc3678b5ed7e9c5388aeb18013729568139b8ee",
+    "size": 86136165,
+    "apkName": "sh.paseo.assembly_1000001102.apk",
+    "added": 1785895401.306442
   }
 }
