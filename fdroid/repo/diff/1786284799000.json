@@ -1,13 +1,14 @@
 {
   "repo": {
-    "timestamp": 1787346622000
+    "timestamp": 1787347782000
   },
   "packages": {
     "sh.paseo.assembly": {
       "metadata": {
-        "lastUpdated": 1787346618000
+        "lastUpdated": 1787347778000
       },
       "versions": {
+        "464c41c580ff230bb86dff2ecf27cbcc3eceaa498702b0148c52518e100b44a2": null,
         "c6efcfbd89216b2e2cb8bc265529a0f6e8364dc4bb9c7e2598628f684c236b45": null,
         "d8ed4499406d45934ee53eb1ed864bad801f6330955ebbf94a99b408f4a6fb64": null,
         "75a1440d4680b6785bf35d3c29c8c0636f038e08b49a12580a3d25478d586a56": null,
@@ -17,6 +18,87 @@
         "3fc07205b8eb7ffac594bcc53433053a1598a6852ad4310bad293852a3a4acf7": null,
         "d63bf8e1b5860dc99e18343ee9a4b998833e53164ddf3563e4b6c4031fa94923": null,
         "6dae507f855e14041b3c0ce6c53a03af063b6a44548eb4cf5e8211467fbb0dfd": null,
+        "06e06c93a35c8b91182c556c4be9b68b5fe71c3ea94de13a53d71f56c3010ea1": {
+          "added": 1787347778000,
+          "file": {
+            "name": "/sh.paseo.assembly_1000001742.apk",
+            "sha256": "06e06c93a35c8b91182c556c4be9b68b5fe71c3ea94de13a53d71f56c3010ea1",
+            "size": 78267821
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.5.0-assembly.174+bc0b7b163981",
+            "versionCode": 1000001742,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "8d229a78b0d7c22086e743c9edc3678b5ed7e9c5388aeb18013729568139b8ee"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "sh.paseo.assembly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ]
+          }
+        },
         "635863c5624121459efe476f10b90958341612a26932d0fc785d284a9c869d66": {
           "added": 1787346618000,
           "file": {
