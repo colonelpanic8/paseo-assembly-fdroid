@@ -8,7 +8,7 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1788469608397,
+  "endTimestamp": 1788472107548,
   "failedBuilds": {},
   "jarsigner": "/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.12-1/x64/bin/jarsigner",
   "keytool": "/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.12-1/x64/bin/keytool",
@@ -22,17 +22,17 @@
     "sh.paseo.assembly"
   ],
   "stages": {
-    "archive_old_apks archive": 1788469602084,
-    "delete_disabled_builds": 1788469602082,
-    "index.make archive": 1788469602085,
-    "index.make repo": 1788469605349,
-    "prepare_apps archive": 1788469602084,
-    "prepare_apps repo": 1788469605348,
-    "process_apks": 1788469602082,
-    "read_added_date_from_all_apks": 1788469602084,
-    "remove_apks": 1788469602083,
-    "scan_repo_files": 1788469602083
+    "archive_old_apks archive": 1788472101028,
+    "delete_disabled_builds": 1788472101026,
+    "index.make archive": 1788472101029,
+    "index.make repo": 1788472104292,
+    "prepare_apps archive": 1788472101029,
+    "prepare_apps repo": 1788472104291,
+    "process_apks": 1788472101027,
+    "read_added_date_from_all_apks": 1788472101028,
+    "remove_apks": 1788472101028,
+    "scan_repo_files": 1788472101027
   },
-  "startTimestamp": 1788469602000,
+  "startTimestamp": 1788472100000,
   "subcommand": "update"
 }
