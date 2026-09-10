@@ -1,5 +1,5 @@
 {
-  "/etc/issue.net": "Ubuntu 24.04.4 LTS",
+  "/etc/issue.net": "Ubuntu 24.04.5 LTS",
   "antiFeatures": {},
   "apksigner": "/nix/store/zd1r5wanal1jwz3w2vp3lykvf5fwl8l4-apksigner-35.0.6/bin/apksigner",
   "archivePolicy0": [],
@@ -8,7 +8,7 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1789025434046,
+  "endTimestamp": 1789026979267,
   "failedBuilds": {},
   "jarsigner": "/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.12-1/x64/bin/jarsigner",
   "keytool": "/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.12-1/x64/bin/keytool",
@@ -22,17 +22,17 @@
     "sh.paseo.assembly"
   ],
   "stages": {
-    "archive_old_apks archive": 1789025427794,
-    "delete_disabled_builds": 1789025427758,
-    "index.make archive": 1789025427795,
-    "index.make repo": 1789025430895,
-    "prepare_apps archive": 1789025427794,
-    "prepare_apps repo": 1789025430894,
-    "process_apks": 1789025427763,
-    "read_added_date_from_all_apks": 1789025427793,
-    "remove_apks": 1789025427793,
-    "scan_repo_files": 1789025427783
+    "archive_old_apks archive": 1789026974177,
+    "delete_disabled_builds": 1789026974176,
+    "index.make archive": 1789026974178,
+    "index.make repo": 1789026976562,
+    "prepare_apps archive": 1789026974178,
+    "prepare_apps repo": 1789026976551,
+    "process_apks": 1789026974176,
+    "read_added_date_from_all_apks": 1789026974177,
+    "remove_apks": 1789026974177,
+    "scan_repo_files": 1789026974177
   },
-  "startTimestamp": 1789025427000,
+  "startTimestamp": 1789026974000,
   "subcommand": "update"
 }
