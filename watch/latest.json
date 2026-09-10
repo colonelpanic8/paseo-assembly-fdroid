@@ -1,8 +1,8 @@
 {
   "packageName": "sh.paseo.assembly",
-  "versionCode": 1000002335,
-  "versionName": "0.8.0-assembly.233+8da62b88f872",
+  "versionCode": 1000002345,
+  "versionName": "0.8.0-assembly.234+949650a757eb",
   "url": "https://colonelpanic8.github.io/paseo-assembly-fdroid/watch/paseo-watch.apk",
-  "sha256": "8504c6b0fc71438780569b9577bbad06b7f48361a97b1e00c7b2c3e0a2127298",
+  "sha256": "ee41963c4dbf3c32e4fba161f86277d1ff29e666862239663907d3b7c89ed526",
   "certificateSha256": "8d229a78b0d7c22086e743c9edc3678b5ed7e9c5388aeb18013729568139b8ee"
 }
