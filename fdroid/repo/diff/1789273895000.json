@@ -1,0 +1,12 @@
+{
+  "repo": {
+    "timestamp": 1789273902000
+  },
+  "packages": {
+    "sh.paseo.assembly": {
+      "metadata": {
+        "added": 1789267064000
+      }
+    }
+  }
+}
